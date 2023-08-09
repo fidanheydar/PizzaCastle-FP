@@ -145,7 +145,7 @@ body {
 }
 
 .header_bottom {
-    background-color: #1A5D1A;
+    background-color: #5F8D4E;
     display: flex;
     height: 93px;
     width: 100%;
@@ -153,10 +153,7 @@ body {
 }
 
 .logo img {
-    border-top-left-radius: 63px;
-    border-top-right-radius: 63px;
-    border-bottom-left-radius: 63px;
-    border-bottom-right-radius: 63px;
+    border-radius: 63px;
     margin-left: 120px;
     cursor: pointer
 }
@@ -293,11 +290,13 @@ body {
 .img_text {
     position: relative;
 }
-.img_btn{
+
+.img_btn {
     position: relative;
-    
+
 }
-.img_btn a{
+
+.img_btn a {
     transition: 0.3s;
     width: 100px;
     height: 30px;
@@ -313,6 +312,62 @@ body {
     text-decoration: none;
     color: #fff;
 }
-.img_btn a:hover{
+
+.img_btn a:hover {
     scale: 1.05;
+}
+
+.footer {
+    background-color: #5F8D4E;
+    display: flex;
+    height: 93px;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footnav {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footnav p {
+    color: white;
+    font-size: 18px;
+    margin-right: 43px;
+    font-weight: 600;
+}
+
+.footnav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.info img:first-child {
+    border-radius: 63px;
+    margin-left: 90px;
+}
+
+.info img:last-child {
+    border-radius: 63px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.info {
+    border-right: 2px solid white;
+}
+
+.social {
+
+    display: flex;
+    gap: 38px;
+    
+}
+.social i:hover{
+    transition: 0.25s;
+    scale:0.9
 }
