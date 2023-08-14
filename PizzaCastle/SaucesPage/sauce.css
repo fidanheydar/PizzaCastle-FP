@@ -154,12 +154,12 @@ body {
 
 .logo img {
     border-radius: 63px;
-    margin-left: 120px;
+    margin-left: 70px;
     cursor: pointer
 }
 
 .wrap {
-    margin-left: 13px;
+    margin-left: 40px;
     gap: 30px;
     display: flex;
 }
@@ -182,7 +182,7 @@ body {
 }
 
 .point {
-    margin-left: 110px;
+    margin-left: 130px;
     display: flex;
     align-items: center;
 
@@ -268,53 +268,54 @@ body {
     margin-left: 10px;
 }
 
-.main {
-    margin-top: 23px;
-}
-
-.main img {
-    margin: auto;
-    width: 100%;
-}
-
-.img_text p {
-    position: absolute;
-    left: 25%;
-    bottom: 350px;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 25px;
-    width: 600px;
-}
-
-.img_text {
+.card_desc {
+    margin-top: 10px;
+    margin-bottom: 25px;
     position: relative;
 }
 
-.img_btn {
-    position: relative;
-
-}
-
-.img_btn a {
-    transition: 0.3s;
-    width: 100px;
-    height: 30px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20%;
-    background-color: rgb(162, 205, 176);
-    position: absolute;
-    left: 45%;
-    bottom: 250px;
-    font-size: 22px;
-    line-height: 25px;
+.see_btn {
+    height: 20px;
+    border-radius: 4px;
+    background-color: #7AA874;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
     color: #fff;
+    padding: 10px 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
 }
 
-.img_btn a:hover {
-    scale: 1.05;
+
+.card_row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 20px;
+
+}
+
+.card_img a img {
+    width: 320px;
+}
+
+.card_desc span {
+font-weight: bolder;
+    font-size: 22px;
+    color: #171717;
+    line-height: 25px;
+}
+.card_desc p{
+    font-size: 16px;
+    color: #282828;
+}
+
+.col {
+    display: flex;
+
 }
 
 .footer {
@@ -365,9 +366,10 @@ body {
 
     display: flex;
     gap: 38px;
-    
+
 }
-.social i:hover{
+
+.social i:hover {
     transition: 0.25s;
-    scale:0.9
+    scale: 0.9
 }
