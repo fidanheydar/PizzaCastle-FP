@@ -293,12 +293,12 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    gap: 40px;
+    gap: 20px;
 
 }
 
 .card_img a img {
-    width: 350px;
+    width: 320px;
 }
 
 .card_desc span {
@@ -311,7 +311,6 @@ body {
 .col {
     margin-top: 30px;
     width: 25%;
-   
     margin: 0px;
     display: flex;
     align-items: flex-start;

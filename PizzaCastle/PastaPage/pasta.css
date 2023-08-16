@@ -154,12 +154,12 @@ body {
 
 .logo img {
     border-radius: 63px;
-    margin-left: 120px;
+    margin-left: 70px;
     cursor: pointer
 }
 
 .wrap {
-    margin-left: 13px;
+    margin-left: 40px;
     gap: 30px;
     display: flex;
 }
@@ -182,7 +182,7 @@ body {
 }
 
 .point {
-    margin-left: 110px;
+    margin-left: 130px;
     display: flex;
     align-items: center;
 
@@ -267,6 +267,7 @@ body {
     width: 60px;
     margin-left: 10px;
 }
+
 .card_desc {
     margin-top: 10px;
     margin-bottom: 25px;
@@ -293,32 +294,31 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    gap: 40px;
+    gap: 33px;
+
 
 }
 
 .card_img a img {
-    width: 350px;
+    width: 320px;
 }
 
 .card_desc span {
-    font-weight: bold;
-    font-size: 22px;
+    font-weight: bolder;
+    font-size: 20px;
     color: #171717;
     line-height: 25px;
 }
-.card_desc p{
-    font-size: 16px;
+
+.card_desc p {
+    font-size: 14px;
     color: #282828;
 }
 
 .col {
-    margin-top: 30px;
-    width: 25%;
-   
+    width: 23%;
     margin: 0px;
     display: flex;
-    align-items: flex-start;
 
 }
 
